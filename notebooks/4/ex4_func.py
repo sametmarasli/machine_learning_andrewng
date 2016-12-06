@@ -2,18 +2,30 @@ import numpy as np
 
 
 def sigmoid(z):
+	'''
+	J = SIGMOID(z) computes the sigmoid of z.
+	'''
 	return 1/(1+np.exp(-z))
 
 
 def sigmoidGradient(z):
+	'''
+	g = SIGMOIDGRADIENT(z) computes the gradient of the sigmoid function
+	evaluated at z. This should work regardless if z is a matrix or a
+	vector. In particular, if z is a vector or matrix, you should return
+	the gradient for each element.
+	'''
 	return sigmoid(z)*(1-sigmoid(z))
 
 
 def randInitializeWeights(L_in, L_out):
-	
-	'''Randomly initialize the weights of a layer with L_in 
-	incoming connections and L_out outgoing connections'''
-
+	'''
+	W = RANDINITIALIZEWEIGHTS(L_in, L_out) randomly initializes the weights 
+	of a layer with L_in incoming connections and L_out outgoing 
+	connections. 
+	Note that W should be set to a matrix of size(L_out, 1 + L_in) as
+	the column row of W handles the "bias" terms
+	'''
 	epsilon_init = np.sqrt(6)/np.sqrt(L_in + L_out)
 
 	return (np.random.random([L_out, L_in+1])*2*epsilon_init-epsilon_init)
@@ -21,8 +33,14 @@ def randInitializeWeights(L_in, L_out):
 
 
 def nnCostFunction(nn_params, input_layer_size, hidden_layer_size, num_labels, X, y, lambda_=0.):
-
-
+	'''
+	[J grad] = NNCOSTFUNCTON(nn_params, hidden_layer_size, num_labels, ...
+	X, y, lambda) computes the cost and gradient of the neural network. The
+	parameters for the neural network are "unrolled" into the vector
+	nn_params and need to be converted back into the weight matrices. 
+	The returned parameter grad should be a "unrolled" vector of the
+	partial derivatives of the neural network.
+	'''
 	lambda_ = float(lambda_)
 
 	# unroll parameters
@@ -76,6 +94,13 @@ def nnCostFunction(nn_params, input_layer_size, hidden_layer_size, num_labels, X
 
 
 def debugInitializeWeights(fan_out, fan_in):
+	'''
+	W = DEBUGINITIALIZEWEIGHTS(fan_in, fan_out) initializes the weights 
+	of a layer with fan_in incoming connections and fan_out outgoing 
+	connections using a fix set of values
+	Note that W should be set to a matrix of size(1 + fan_in, fan_out) as
+	the first row of W handles the "bias" terms
+	'''
     #Set W to zeros
     W_size = fan_out* (1 + fan_in)
     #Initialize W using "sin", this ensures that W is always of the same
@@ -86,6 +111,18 @@ def debugInitializeWeights(fan_out, fan_in):
 
 
 def computeNumericalGradient(J, theta):
+    '''
+    numgrad = COMPUTENUMERICALGRADIENT(J, theta) computes the numerical
+    gradient of the function J around theta. Calling y = J(theta) should
+    return the function value at theta.
+	
+	Notes: The following code implements numerical gradient checking, and 
+	returns the numerical gradient.It sets numgrad(i) to (a numerical 
+	approximation of) the partial derivative of J with respect to the 
+	i-th input argument, evaluated at theta. (i.e., numgrad(i) should 
+	be the (approximately) the partial derivative of J with respect 
+	to theta(i).)
+    '''
     numgrad = np.zeros(theta.size);
     perturb = np.zeros(theta.size);
     e = 1e-4;
@@ -99,6 +136,10 @@ def computeNumericalGradient(J, theta):
 
 
 def predict(theta1, theta2, X):
+	'''
+	p = PREDICT(Theta1, Theta2, X) outputs the predicted label of X given the
+	trained weights of a neural network (Theta1, Theta2)
+	'''
     a1 = np.insert(X, 0, 1,axis=1)
     z2 = a1.dot(theta1.T)
     a2 = sigmoid(z2)
