@@ -12,7 +12,7 @@ This repository contains python implementations of certain exercises from the co
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/Logistic_Regression_with_Regularization.ipynb'>2.b - Logistic regression with regularization</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/logistic _regression_with_polynomial_terms.ipynb'>3.a - Logistic regression with polynomial terms</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/logistic _regression_multi-class_classification.ipynb'>3.a - Logistic regression multi-class classification</A><BR>
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/neural_networks_feedforward_prop.ipynb'>3.b - Neural networks feedforward prop</A><BR>
 
