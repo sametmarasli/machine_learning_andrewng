@@ -20,6 +20,6 @@ This repository contains python implementations of certain exercises from the co
  
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/4/ex4_func.py'>	- Neural networks backprop functions</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/5/Untitled.ipynb'>5 - Regularized linear regression and bias v.s. variance</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/5/regularized_linear_regression_and_bias-variance.ipynb'>5 - Regularized linear regression and bias v.s. variance</A><BR>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/5/ex5_func.py'>	- Regularized linear regression and bias v.s. variance functions</A><BR>
