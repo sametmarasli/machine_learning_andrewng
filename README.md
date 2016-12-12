@@ -1,7 +1,9 @@
 # Coursera Machine Learning
 
 
-This repository contains python implementations of certain exercises from the course by Andrew Ng. Work in process ...<P>
+This repository contains Python 2.7 implementations of certain exercises from the course by Andrew Ng in the form of Jupyter Notebooks. For most of the code in this repository, I have used existing Python data science libraries such as numpy, pandas, matplotlib and try to avoid using scikit-learn as much as possible.
+
+Work in process ...<P>
 
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/linear_regression_with_one_variable.ipynb'>1.a - Linear regression with one variable</A><BR>
@@ -23,3 +25,8 @@ This repository contains python implementations of certain exercises from the co
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/5/regularized_linear_regression_and_bias-variance.ipynb'>5 - Regularized linear regression and bias v.s. variance</A><BR>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/5/ex5_func.py'>	- Regularized linear regression and bias v.s. variance functions</A><BR>
+
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/6/support_vector_machines.ipynb'>6 - Support vector machines</A><BR>
+
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/6/ex6_func.py'>	- Support vector machines' functions</A><BR>
+
