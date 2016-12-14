@@ -28,5 +28,9 @@ Work in process ...<P>
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/6/support_vector_machines.ipynb'>6 - Support vector machines</A><BR>
 
-<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/6/ex6_func.py'>	- Support vector machines' functions</A><BR>
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/6/ex6_func.py'>	- Support vector machines functions</A><BR>
+
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/7/k-means_clustering_and_principal_component_analysis.ipynb'>6 - K-means custering and principal component analysis</A><BR>
+
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/7/ex7_func.py'>	- K-means clustering and PCA functions</A><BR>
 
