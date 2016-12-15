@@ -19,6 +19,7 @@ def findClosestCentroids(X, centroids):
 
 
 
+
 def computeCentroids(X, idx, K):
 	'''
 	centroids = COMPUTECENTROIDS(X, idx, K) returns the new centroids by 
@@ -45,7 +46,7 @@ def computeCentroids(X, idx, K):
 def plotkMeans(X, idx, centroids):
 	'''
 	PLOTPROGRESSKMEANS(X, idx, centroids) plots the data
-	points with colors assigned to each centroid. It also plots locations of the centroids.
+	points with codelors assigned to each centroid. It also plots locations of the centroids.
 	'''
 
 	fig, ax = plt.subplots(figsize=(7,5))
@@ -82,3 +83,50 @@ def kMeansInitCentroids(X, K):
 	perm = np.random.permutation(m)
 	initial_centroids = X[perm[:K],:]
 	return initial_centroids
+
+def featureNormalize(X):
+	'''
+	FEATURENORMALIZE(X) returns a normalized version of X where
+	the mean value of each feature is 0 and the standard deviation
+	is 1. This is often a good preprocessing step to do when
+	working with learning algorithms.
+	'''
+
+	m,n = X.shape
+	mu = np.mean(X, axis=0)
+	sigma = np.std(X, axis=0, ddof=0)
+	X_norm = (X-mu) / sigma
+	return X_norm, mu, sigma
+
+
+def pca(X):
+	'''
+	[U, S] = pca(X) computes eigenvectors of the covariance matrix of X
+	Returns the eigenvectors U, the eigenvalues (on diagonal) in S
+	'''
+
+	m,n = X.shape
+	sigma = 1./m*X.T.dot(X)
+	U,S,V = np.linalg.svd(sigma)
+	return U,S
+
+def projectData(X, U, K):
+	'''
+	Z = projectData(X, U, K) computes the projection of 
+	the normalized inputs X into the reduced dimensional space spanned by
+	the first K columns of U. It returns the projected examples in Z.
+	'''
+
+	Z = X.dot(U[:,:K])
+	return Z
+
+
+def recoverData(Z, U, K):
+	'''
+	X_rec = RECOVERDATA(Z, U, K) recovers an approximation the 
+	original data that has been reduced to K dimensions. It returns the
+	approximate reconstruction in X_rec.
+	'''
+
+	X_rec = Z.dot(U[:,:K].T)
+	return X_rec
