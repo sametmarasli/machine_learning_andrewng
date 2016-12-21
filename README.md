@@ -34,6 +34,6 @@ Work in process ...<P>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/7/ex7_func.py'>	- K-means clustering and PCA functions</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/8/anomaly_detection_and_recommender_systems.ipynb.ipynb'>8 - Anomaly detection and recommender systems</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/8/anomaly_detection_and_recommender_systems.ipynb'>8 - Anomaly detection and recommender systems</A><BR>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/8/ex8_func.py'>	- Anomaly detection and recommender systems functions</A><BR>
