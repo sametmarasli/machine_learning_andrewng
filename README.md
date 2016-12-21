@@ -6,13 +6,13 @@ This repository contains Python 2.7 implementations of certain exercises from th
 Work in process ...<P>
 
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/linear_regression_with_one_variable.ipynb'>1.a - Linear regression with one variable</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/linear_regression.ipynb'>1 - Linear regression </A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/linear_regression_with_multiple_variables.ipynb'>1.b - Linear regression with multiple variables</A><BR>
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/ex1_func.py'>	- Linear regression functions</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/Logistic_Regression.ipynb'>2.a - Logistic regression</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/logistic_regression.ipynb'>2 - Logistic regression</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/Logistic_Regression_with_Regularization.ipynb'>2.b - Logistic regression with regularization</A><BR>
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/ex2_func.py'>	- Logistic regression functions</A><BR>
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/logistic _regression_multi-class_classification.ipynb'>3.a - Logistic regression multi-class classification</A><BR>
 
@@ -33,3 +33,7 @@ Work in process ...<P>
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/7/kmeans_clustering_and_principal_component_analysis.ipynb'>7 - K-means custering and principal component analysis</A><BR>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/7/ex7_func.py'>	- K-means clustering and PCA functions</A><BR>
+
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/8/anomaly_detection_and_recommender_systems.ipynb.ipynb'>8 - Anomaly detection and recommender systems</A><BR>
+
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/8/ex8_func.py'>	- Anomaly detection and recommender systems functions</A><BR>
