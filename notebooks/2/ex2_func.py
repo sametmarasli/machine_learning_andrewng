@@ -84,7 +84,9 @@ def gradientReg(theta, X, y, lambda_):
     return grad
 
 def accuracyReg(theta,X,y):
+
     theta = np.matrix(theta)
     X = np.matrix(X)
     predict = (sigmoid(X*(theta.T))>=0.5).astype(int)
+    
     return np.asscalar(sum(predict == y)/float(len(y)))*100

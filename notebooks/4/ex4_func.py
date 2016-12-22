@@ -101,12 +101,12 @@ def debugInitializeWeights(fan_out, fan_in):
 	Note that W should be set to a matrix of size(1 + fan_in, fan_out) as
 	the first row of W handles the "bias" terms
 	'''
-    #Set W to zeros
-    W_size = fan_out* (1 + fan_in)
-    #Initialize W using "sin", this ensures that W is always of the same
-    #values and will be useful for debugging
-    W = np.array(np.sin(range(1,W_size+1))/10).reshape(fan_out,1 + fan_in)
-    return W
+	#Set W to zeros
+	W_size = fan_out* (1 + fan_in)
+	#Initialize W using "sin", this ensures that W is always of the same
+	#values and will be useful for debugging
+	W = np.array(np.sin(range(1,W_size+1))/10).reshape(fan_out,1 + fan_in)
+	return W
 
 
 
@@ -140,14 +140,13 @@ def predict(theta1, theta2, X):
 	p = PREDICT(Theta1, Theta2, X) outputs the predicted label of X given the
 	trained weights of a neural network (Theta1, Theta2)
 	'''
-    a1 = np.insert(X, 0, 1,axis=1)
-    z2 = a1.dot(theta1.T)
-    a2 = sigmoid(z2)
-    a2 = np.insert(a2, 0, 1,axis=1)
-    a2.shape, theta2.shape
-    z3 = a2.dot(theta2.T)
-    a3 = sigmoid(z3)
-    y_hat = np.argmax(a3, axis=1)
-    return y_hat
+	a1 = np.insert(X, 0, 1,axis=1)
+	z2 = a1.dot(theta1.T)
+	a2 = sigmoid(z2)
+	a2 = np.insert(a2, 0, 1,axis=1)
+	a2.shape, theta2.shape
+	z3 = a2.dot(theta2.T)
+	a3 = sigmoid(z3)
+	y_hat = np.argmax(a3, axis=1)
+	return y_hat
 
-	
