@@ -14,9 +14,9 @@ Work in process ...<P>
 
 <A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/2/ex2_func.py'>	- Logistic regression functions</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/logistic _regression_multi-class_classification.ipynb'>3.a - Logistic regression multi-class classification</A><BR>
+<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/multi-class_classification&neural_networks-feedforward_propagation.ipynb'>3 - Multi-class classification & Neural networks - Feedforward Propagation</A><BR>
 
-<A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/neural_networks_feedforward_prop.ipynb'>3.b - Neural networks feedforward prop</A><BR>
+<A href='https://github.com/sametmarasli/machine_learning_andrewng/blob/master/notebooks/3/ex3_func.py'>	- Multi-class classification & NN - Feedforward Propagation functions</A><BR>
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/4/neural_networks_backprop.ipynb'>4 - Neural networks backprop</A><BR>
  
