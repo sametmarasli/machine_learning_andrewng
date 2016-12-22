@@ -3,8 +3,6 @@
 
 This repository contains Python 2.7 implementations of certain exercises from the course by Andrew Ng in the form of Jupyter Notebooks. For most of the code in this repository, I have used existing Python data science libraries such as numpy, pandas, matplotlib and try to avoid using scikit-learn as much as possible.
 
-Work in process ...<P>
-
 
 <A href='http://nbviewer.jupyter.org/github/sametmarasli/machine_learning_andrewng/blob/master/notebooks/1/linear_regression.ipynb'>1 - Linear regression </A><BR>
 
